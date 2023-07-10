@@ -38,4 +38,42 @@ h1{
 .btn:hover{
     background-color: rgb(6, 87, 6);
 }
+.featured{
+    background-color: beige;
+    padding: 100px 150px;
+    text-align: center;
+}
+.featured-flowers{
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+    gap: 15px;
+}
+.bb-pink{
+    background-color: rgba(167, 33, 98, 0.15);
+    height: 540px;
+    width: 440px;
+    border-radius: 270px 270px 0px 0px;
+}
+.bb-mix{
+    background-color: rgba(5, 151, 160, 0.15);
+    height: 540px;
+    width: 440px;
+    border-radius: 270px 270px 0px 0px;
+}
+.bb-yellow{
+    background-color: rgba(71, 125, 17, 0.15);;
+    height: 540px;
+    width: 440px;
+    border-radius: 270px 270px 0px 0px;
+}
+a{
+    padding-top: 10px;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
