@@ -10,21 +10,24 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 70px 100px;
+    padding: 70px 0px;
+    margin: auto;
 }
 .banner-description{
     width: 50%;
     text-align: left;
-    padding: 10px;
+    padding: 10px 70px;
 }
 h1{
-    font-size: 40px;
+    font-size: 60px;
+    font-weight: bolder;
     margin-bottom: 10px;
 }
 .banner-img{
     position: absolute;
     right: 0;
     width: 50%;
+    padding: 80px 10px;
 
 }
 .btn{
@@ -39,37 +42,42 @@ h1{
     background-color: rgb(6, 87, 6);
 }
 .featured{
-    background-color: beige;
-    padding: 100px 150px;
+    width: 80%;
+    margin: auto;
     text-align: center;
+    padding-top: 40px;
 }
 .featured-flowers{
     display: flex;
     align-items: last baseline;
     justify-content: space-around;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
     gap: 15px;
 }
 .bb-pink{
     background-color: rgba(167, 33, 98, 0.15);
-    height: 540px;
-    width: 440px;
-    border-radius: 270px 270px 0px 0px;
+    height: 550px;
+    width: 400px;
+    border-radius: 50% 50% 0 0;
 }
 .bb-mix{
     background-color: rgba(5, 151, 160, 0.15);
-    height: 540px;
-    width: 440px;
-    border-radius: 270px 270px 0px 0px;
+    height: 550px;
+    width: 400px;
+    border-radius: 50% 50% 0 0;
 }
 .bb-yellow{
-    background-color: rgba(71, 125, 17, 0.15);;
-    height: 540px;
-    width: 440px;
-    border-radius: 270px 270px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 50% 50% 0 0;
+    height: 550px;
+    width: 400px;
 }
-a{
+.ff{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.featured-flower-title{
     padding-top: 10px;
     text-decoration: underline;
     font-size: 20px;
@@ -83,6 +91,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 50px;
 }
 .hot-des{
     text-align: center;
@@ -98,31 +107,66 @@ a{
     width: 50%;
 }
 .inst{
-    margin: 50px 150px;
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
     text-align: center;
-    gap: 10px;
 }
 .inst-pic{
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 10px;
+}
+.inst-pho{
+    height: 250px;
+    width: 250px;
+}
+.blog{
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    gap: 10px;
+}
+.card{
+    text-align: center;
+    box-shadow: 2px 2px 5px  grey;
+    padding-bottom: 20px;
+}
+.card-pic{
+    width: 90%;
 }
 .subs{
     width: 80%;
+    margin: auto;
     text-align: center;
-    background-image: url(./images/Rectangle\ 9.png);
+    background-image: url(./images/rectangle\ 9.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 40px;
 }
 .foot{
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 400px;
     background-color: #111010;
+}
+.footer{
     color: white;
     text-align: center;
-    display: flex;
-    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+.copyright{
+    margin-top: 30px;
 }
 
