@@ -126,7 +126,7 @@ h1{
 .blog{
     width: 100%;
     text-align: center;
-    margin: 20px;
+    margin-top: 20px;
     padding: 20px;
 }
 .cards{
@@ -147,7 +147,7 @@ h1{
     width: 80%;
     margin: auto;
     text-align: center;
-    background-image: url(./images/rectangle\ 9.png);
+    background-image: url(./images/rectangle9.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
